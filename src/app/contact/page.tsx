@@ -147,7 +147,7 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                      placeholder="+091-9900031301"
+                      placeholder="+91-9900031301"
                     />
                   </div>
                   <div>
@@ -282,7 +282,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                      <p className="text-gray-600">+091-9900031301</p>
+                      <p className="text-gray-600">+91-9900031301</p>
                     </div>
                   </div>
 
@@ -303,8 +303,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Office</h3>
                       <p className="text-gray-600">
-                        SportsNest Infrastructure Pvt. Ltd.<br />
-                        Bangalore, Karnataka, India
+                        Sports Nest Retail India Pvt Ltd.<br />
+                        # 7/D, 4th Cross, Nehru Road,<br />
+                        Girinagar 1st Phase, Bangalore - 560085<br />
+                        Karnataka, India
                       </p>
                     </div>
                   </div>

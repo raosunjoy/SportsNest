@@ -167,10 +167,10 @@ This is a private business website. For any updates or modifications, please con
 
 ## 📞 Contact
 
-**SportsNest Infrastructure Pvt. Ltd.**
+**Sports Nest Retail India Pvt Ltd.**
 - Email: chandrag@sportsnest.com
-- Phone: +091-9900031301
-- Location: Bangalore, Karnataka, India
+- Phone: +91-9900031301
+- Address: # 7/D, 4th Cross, Nehru Road, Girinagar 1st Phase, Bangalore - 560085, Karnataka, India
 
 ## 📝 License
 

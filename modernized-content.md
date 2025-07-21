@@ -101,7 +101,8 @@ Whether you're a real estate developer, school, or corporate campus—we're your
 
 🟣 [Book a Consultation]
 📧 [chandrag@sportsnest.com](mailto:chandrag@sportsnest.com)
-📍 Bangalore, India
+📞 +91-9900031301
+📍 # 7/D, 4th Cross, Nehru Road, Girinagar 1st Phase, Bangalore - 560085, Karnataka, India
 
 ---
 
