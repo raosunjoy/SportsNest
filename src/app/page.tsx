@@ -188,8 +188,8 @@ export default function Home() {
             <button className="bg-purple-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-900 transition-colors">
               Book a Consultation
             </button>
-            <a href="mailto:contact@sportsnest.com" className="text-purple-800 font-semibold hover:underline">
-              contact@sportsnest.com
+            <a href="mailto:chandrag@sportsnest.com" className="text-purple-800 font-semibold hover:underline">
+              chandrag@sportsnest.com
             </a>
           </div>
         </div>

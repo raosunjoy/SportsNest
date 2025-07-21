@@ -147,7 +147,7 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={handleInputChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-                      placeholder="+91 99999 99999"
+                      placeholder="+091-9900031301"
                     />
                   </div>
                   <div>
@@ -282,8 +282,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-                      <p className="text-gray-600">+91 98765 43210</p>
-                      <p className="text-gray-600">+91 80 2345 6789</p>
+                      <p className="text-gray-600">+091-9900031301</p>
                     </div>
                   </div>
 
@@ -293,8 +292,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                      <p className="text-gray-600">contact@sportsnest.com</p>
-                      <p className="text-gray-600">projects@sportsnest.com</p>
+                      <p className="text-gray-600">chandrag@sportsnest.com</p>
                     </div>
                   </div>
 
@@ -331,19 +329,19 @@ export default function ContactPage() {
                 <h3 className="text-xl font-bold text-gray-900 mb-4">Quick Actions</h3>
                 <div className="space-y-4">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919900031301"
                     className="block bg-white rounded-lg p-4 text-center font-semibold text-purple-800 hover:shadow-lg transition-shadow"
                   >
                     📞 Call Now for Immediate Assistance
                   </a>
                   <a
-                    href="mailto:contact@sportsnest.com"
+                    href="mailto:chandrag@sportsnest.com"
                     className="block bg-white rounded-lg p-4 text-center font-semibold text-green-600 hover:shadow-lg transition-shadow"
                   >
                     ✉️ Email Your Requirements
                   </a>
                   <a
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/919900031301"
                     className="block bg-white rounded-lg p-4 text-center font-semibold text-blue-600 hover:shadow-lg transition-shadow"
                   >
                     💬 WhatsApp Chat

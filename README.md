@@ -168,8 +168,8 @@ This is a private business website. For any updates or modifications, please con
 ## 📞 Contact
 
 **SportsNest Infrastructure Pvt. Ltd.**
-- Email: contact@sportsnest.com
-- Phone: +91 98765 43210
+- Email: chandrag@sportsnest.com
+- Phone: +091-9900031301
 - Location: Bangalore, Karnataka, India
 
 ## 📝 License

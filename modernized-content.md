@@ -100,7 +100,7 @@ We've built over **100+ facilities** across India with unmatched quality and dur
 Whether you're a real estate developer, school, or corporate campus—we're your single-window partner for premium sports infra.
 
 🟣 [Book a Consultation]
-📧 [contact@sportsnest.com](mailto:contact@sportsnest.com)
+📧 [chandrag@sportsnest.com](mailto:chandrag@sportsnest.com)
 📍 Bangalore, India
 
 ---
