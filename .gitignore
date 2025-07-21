@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python virtual environments
+pdf_env/
+venv/
+env/
+
+# PDF files
+*.pdf
