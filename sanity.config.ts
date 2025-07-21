@@ -14,9 +14,5 @@ export default defineConfig({
   
   schema: {
     types: schemaTypes,
-  },
-  
-  studio: {
-    studioHost: 'sportsnest'
   }
 })
