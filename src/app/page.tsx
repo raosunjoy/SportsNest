@@ -66,21 +66,21 @@ export default function Home() {
                 NCA Level 3 coach, and Star Sports commentator.
               </p>
               <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <span>Deep sporting insight from former international athletes</span>
+                <div className="flex items-start gap-4">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                  <span className="text-gray-700">Deep sporting insight from former international athletes</span>
                 </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <span>End-to-end infra: surfaces, lighting, fencing, civil works</span>
+                <div className="flex items-start gap-4">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                  <span className="text-gray-700">End-to-end infra: surfaces, lighting, fencing, civil works</span>
                 </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <span>Trusted by India's top builders — Brigade, Puravankara, Bagmane & more</span>
+                <div className="flex items-start gap-4">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                  <span className="text-gray-700">Trusted by India's top builders — Brigade, Puravankara, Bagmane & more</span>
                 </div>
-                <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
-                  <span>Decades of executional excellence and global brand partnerships</span>
+                <div className="flex items-start gap-4">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
+                  <span className="text-gray-700">Decades of executional excellence and global brand partnerships</span>
                 </div>
               </div>
             </div>
