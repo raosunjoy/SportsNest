@@ -161,6 +161,25 @@ This website is designed to:
 - **Drive Conversions** with clear CTAs and contact forms
 - **Build Trust** with professional design and testimonials
 
+## 📝 Content Management System (CMS)
+
+The website now includes **Sanity CMS** for easy content management without touching code!
+
+### 🎯 CMS Features
+- **Visual Content Editor** - Edit content through a user-friendly interface
+- **Real-time Updates** - Changes reflect on the website immediately
+- **Image Management** - Upload and manage project images
+- **No Code Required** - Update content without technical knowledge
+
+### 🔗 CMS Access
+**Admin URL**: `https://sportsnest.sanity.studio`
+- Login with your Sanity account
+- Edit homepage content, contact information, projects, and more
+- Changes are published instantly to the live website
+
+### 📖 Setup Guide
+See `SANITY_SETUP.md` for detailed setup instructions.
+
 ## 🤝 Contributing
 
 This is a private business website. For any updates or modifications, please contact the development team.
