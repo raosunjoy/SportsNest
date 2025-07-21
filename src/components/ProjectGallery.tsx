@@ -47,19 +47,19 @@ const projects: Project[] = [
   },
   {
     id: "5",
-    title: "Badminton Court",
-    type: "Badminton Court",
+    title: "Tennis Court",
+    type: "Tennis Court",
     client: "Corporate Campus",
     image: "/projects/118488872_153277009760513_8619480307087049036_n.jpg",
-    description: "Indoor badminton court with proper ventilation and lighting"
+    description: "Professional tennis court with high-quality synthetic surface"
   },
   {
     id: "6",
-    title: "Squash Court Construction",
-    type: "Squash Court",
+    title: "Basketball Court",
+    type: "Basketball Court",
     client: "Sports Club",
     image: "/projects/118886344_153276956427185_6399351481695250363_n.jpg",
-    description: "Professional squash court with glass walls and premium flooring"
+    description: "Professional basketball court with weather-resistant surface and proper markings"
   },
   {
     id: "7",
