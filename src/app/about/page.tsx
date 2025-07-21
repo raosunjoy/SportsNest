@@ -52,32 +52,37 @@ export default function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <div className="bg-gradient-to-br from-purple-100 to-green-100 rounded-2xl p-8">
-                <div className="bg-white rounded-xl p-8 shadow-lg">
-                  <div className="flex items-center gap-4 mb-6">
-                    <div className="w-20 h-20 bg-purple-800 rounded-full flex items-center justify-center">
-                      <span className="text-white font-bold text-2xl">VB</span>
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-900">Vijay R Bharadwaj</h3>
-                      <p className="text-purple-600 font-medium">Founder & Chief Sports Officer</p>
-                    </div>
+                {/* Large founder image */}
+                <div className="mb-6 text-center">
+                  <div className="w-48 h-48 mx-auto rounded-2xl overflow-hidden shadow-lg">
+                    <Image
+                      src="/founder/vijay-bharadwaj-3.jpg"
+                      alt="Vijay R Bharadwaj at Star Sports"
+                      width={192}
+                      height={192}
+                      className="object-cover"
+                    />
                   </div>
+                </div>
+                <div className="bg-white rounded-xl p-8 shadow-lg text-center">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Vijay R Bharadwaj</h3>
+                  <p className="text-purple-600 font-medium mb-6">Founder & Chief Sports Officer</p>
                   
-                  <div className="space-y-4">
+                  <div className="space-y-4 text-left max-w-sm mx-auto">
                     <div className="flex items-center gap-3">
-                      <Trophy className="text-green-500" size={20} />
+                      <Trophy className="text-green-500 flex-shrink-0" size={20} />
                       <span className="text-gray-700">Former India Test Cricketer</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Award className="text-green-500" size={20} />
+                      <Award className="text-green-500 flex-shrink-0" size={20} />
                       <span className="text-gray-700">NCA Level 3 Certified Coach</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Users className="text-green-500" size={20} />
+                      <Users className="text-green-500 flex-shrink-0" size={20} />
                       <span className="text-gray-700">Star Sports Commentator</span>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Target className="text-green-500" size={20} />
+                      <Target className="text-green-500 flex-shrink-0" size={20} />
                       <span className="text-gray-700">Host: The Dressing Room Show</span>
                     </div>
                   </div>

@@ -93,8 +93,14 @@ export default function Home() {
                     I started SportsNest to bring that same world-class quality to Indian infrastructure."
                   </blockquote>
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-purple-800 rounded-full flex items-center justify-center">
-                      <span className="text-white font-bold">VB</span>
+                    <div className="w-12 h-12 rounded-full overflow-hidden">
+                      <Image
+                        src="/founder/vijay-bharadwaj-1.jpg"
+                        alt="Vijay R Bharadwaj"
+                        width={48}
+                        height={48}
+                        className="object-cover"
+                      />
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Vijay R Bharadwaj</div>
