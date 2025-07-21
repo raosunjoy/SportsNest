@@ -1,103 +1,215 @@
 import Image from "next/image";
+import { ArrowRight, Play } from "lucide-react";
+import ProjectGallery from "@/components/ProjectGallery";
+import Navigation from "@/components/Navigation";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen">
+      {/* Navigation */}
+      <Navigation />
+      
+      <div className="bg-gradient-to-br from-purple-900 via-purple-800 to-purple-700">
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Hero Section */}
+      <main className="container mx-auto px-6 lg:px-12 pt-16 pb-24">
+        <div className="max-w-4xl">
+          <h1 className="text-5xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+            Crafting World-Class Sports Infrastructure for
+            <span className="text-green-400"> Champions</span>
+          </h1>
+          
+          <p className="text-xl text-white/80 mb-8 max-w-2xl">
+            From elite residential townships to national academies, we build the courts, 
+            pitches, gyms, and arenas where tomorrow's champions are made.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <button className="bg-green-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-600 transition-colors flex items-center justify-center gap-2">
+              View Projects
+              <ArrowRight size={20} />
+            </button>
+            <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-purple-800 transition-colors">
+              Partner With Us
+            </button>
+          </div>
+
+          {/* Stats */}
+          <div className="grid grid-cols-3 gap-8 text-white">
+            <div>
+              <div className="text-3xl font-bold text-green-400">100+</div>
+              <div className="text-sm opacity-80">Projects Completed</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-green-400">15+</div>
+              <div className="text-sm opacity-80">Years Experience</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-green-400">50+</div>
+              <div className="text-sm opacity-80">Elite Developers</div>
+            </div>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+
+      {/* About Section */}
+      <section className="bg-white py-20">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Built by Athletes, for Athletes
+              </h2>
+              <p className="text-gray-700 mb-6 text-lg">
+                <strong>SportsNest</strong> is India's premier sports infrastructure company, 
+                founded by <strong>Vijay R Bharadwaj</strong>, former India Test cricketer, 
+                NCA Level 3 coach, and Star Sports commentator.
+              </p>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>Deep sporting insight from former international athletes</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>End-to-end infra: surfaces, lighting, fencing, civil works</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>Trusted by India's top builders — Brigade, Puravankara, Bagmane & more</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-2 h-2 bg-green-500 rounded-full mt-2"></div>
+                  <span>Decades of executional excellence and global brand partnerships</span>
+                </div>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="bg-gradient-to-br from-purple-100 to-green-100 rounded-2xl p-8">
+                <div className="bg-white rounded-xl p-6 shadow-lg">
+                  <h3 className="font-bold text-xl text-gray-900 mb-2">Founder's Note</h3>
+                  <blockquote className="text-gray-700 italic mb-4">
+                    "As a former international cricketer, I've played on some of the world's best facilities. 
+                    I started SportsNest to bring that same world-class quality to Indian infrastructure."
+                  </blockquote>
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 bg-purple-800 rounded-full flex items-center justify-center">
+                      <span className="text-white font-bold">VB</span>
+                    </div>
+                    <div>
+                      <div className="font-semibold text-gray-900">Vijay R Bharadwaj</div>
+                      <div className="text-sm text-gray-600">Founder & Former India Cricketer</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="bg-gray-50 py-20">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-gray-900 mb-4">Complete Sports Infrastructure Solutions</h2>
+            <p className="text-gray-700 text-lg max-w-2xl mx-auto">
+              We provide turnkey solutions for all your sporting infrastructure needs
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="font-bold text-xl text-gray-900 mb-4">Sports Courts</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Tennis & Basketball Courts</li>
+                <li>• Volleyball & Squash Courts</li>
+                <li>• Multi-sport Courts</li>
+                <li>• Synthetic Turf & Artificial Grass</li>
+                <li>• Custom Clay Surfaces</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="font-bold text-xl text-gray-900 mb-4">Infrastructure</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Asphalt Base Construction</li>
+                <li>• Chain-Link Fencing</li>
+                <li>• High-Mast LED Lighting</li>
+                <li>• Jogging & Running Tracks</li>
+                <li>• Skating Rinks</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white rounded-xl p-6 shadow-lg">
+              <h3 className="font-bold text-xl text-gray-900 mb-4">Premium Equipment</h3>
+              <ul className="space-y-2 text-gray-700">
+                <li>• Residential Gyms</li>
+                <li>• Wellness Centers</li>
+                <li>• Private Clubs</li>
+                <li>• School Facilities</li>
+                <li>• Global Brand Partnerships</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Gallery */}
+      <ProjectGallery />
+
+      {/* Video Section */}
+      <section className="bg-gradient-to-r from-purple-800 to-purple-900 py-20">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
+          <h2 className="text-4xl font-bold text-white mb-4">From the Dressing Room</h2>
+          <p className="text-white/80 mb-8">Watch our Founder on YouTube</p>
+          <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur rounded-full px-6 py-3 text-white">
+            <Play size={24} />
+            <span>The Dressing Room Show by Vijay Bharadwaj</span>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="bg-white py-20">
+        <div className="container mx-auto px-6 lg:px-12 text-center">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Let's Build Together</h2>
+          <p className="text-gray-700 text-lg mb-8 max-w-2xl mx-auto">
+            Whether you're a real estate developer, school, or corporate campus—we're your 
+            single-window partner for premium sports infrastructure.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <button className="bg-purple-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-purple-900 transition-colors">
+              Book a Consultation
+            </button>
+            <a href="mailto:contact@sportsnest.com" className="text-purple-800 font-semibold hover:underline">
+              contact@sportsnest.com
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-white py-12">
+        <div className="container mx-auto px-6 lg:px-12">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="flex items-center space-x-2 mb-4 md:mb-0">
+              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
+                <span className="text-purple-800 font-bold">SN</span>
+              </div>
+              <div>
+                <div className="font-bold">SPORTS NEST</div>
+                <div className="text-sm opacity-80">Infra for Champions</div>
+              </div>
+            </div>
+            <div className="text-center md:text-right">
+              <p>&copy; 2025 SportsNest. All rights reserved.</p>
+              <p className="text-sm opacity-80">Bangalore, India</p>
+            </div>
+          </div>
+        </div>
       </footer>
+      </div>
     </div>
   );
 }
