@@ -199,10 +199,14 @@ export default function Home() {
       <footer className="bg-gray-900 text-white py-12">
         <div className="container mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-purple-800 font-bold">SN</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4 md:mb-0">
+              <Image
+                src="/sportsnest-logo.png"
+                alt="SportsNest Logo"
+                width={40}
+                height={40}
+                className="rounded-lg"
+              />
               <div>
                 <div className="font-bold">SPORTS NEST</div>
                 <div className="text-sm opacity-80">Infra for Champions</div>
