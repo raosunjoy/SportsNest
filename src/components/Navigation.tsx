@@ -21,7 +21,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
+          <Link href="/" className="flex items-center">
             <Image
               src="/sportsnest-logo.png"
               alt="SportsNest Logo"
@@ -29,10 +29,6 @@ const Navigation = () => {
               height={48}
               className="rounded-lg"
             />
-            <div>
-              <div className="font-bold text-xl">SPORTS NEST</div>
-              <div className="text-sm opacity-80">SPORTSNEST.COM</div>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
