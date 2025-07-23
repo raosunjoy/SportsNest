@@ -203,8 +203,8 @@ export default function Home() {
               <Image
                 src="/sportsnest-logo.png"
                 alt="SportsNest Logo"
-                width={56}
-                height={56}
+                width={72}
+                height={72}
                 className="rounded-lg"
               />
             </div>

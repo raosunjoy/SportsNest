@@ -25,8 +25,8 @@ const Navigation = () => {
             <Image
               src="/sportsnest-logo.png"
               alt="SportsNest Logo"
-              width={64}
-              height={64}
+              width={80}
+              height={80}
               className="rounded-lg"
             />
           </Link>
